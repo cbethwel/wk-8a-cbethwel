@@ -38,7 +38,7 @@ CREATE TABLE Appointments (
     FOREIGN KEY (doctor_id) REFERENCES Doctors(doctor_id)   -- Foreign key to Doctors
 );
 
--- Example of adding some departments
+-- Adding some departments
 INSERT INTO Departments (department_name) VALUES ('Cardiology');
 INSERT INTO Departments (department_name) VALUES ('Neurology');
 INSERT INTO Departments (department_name) VALUES ('Pediatrics');
